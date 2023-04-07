@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>website testing</title>
+</head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<body style="background-color: rgb(251, 240, 198);">
+  <!-- title -->
+  <h1 style="color: lightblue">hello</h1>
+  <!-- links and images -->
+  <a href="subpage.html" target="_blank" title="google redirect"> google </a>
+  <div>body okayy yah</div>
+  <a href="#"><img src="/images/rocketship.webp" height="300"
+      alt="This is a vector image of a rocketship flying througout the sky." title="Rocketship soaring" />
+  </a>
+
+  <h2>my lists:</h2>
+
+  <h4>whats good, here is my list</h4>
+
+  <ul>
+    <li>hello</li>
+    <li>goodbye</li>
+    <li>gwe</li>
+    <li>gwe</li>
+    <li>gwe</li>
+  </ul>
+
+  <h4>whats good, here is my other list</h4>
+
+  <ol>
+    <li>wake up</li>
+    <li>brush my teeth</li>
+    <li>eat breakfast</li>
+    <li>go to the store</li>
+    <li>get out of bed</li>
+  </ol>
+
+  <dl>
+    <dt>wake up</dt>
+    <dt></dt>
+    <dd>brush my teeth</dd>
+    <dd>apparently this is formatting so thats cool</dd>
+  </dl>
+
+  <h2>now lets do some table stuff lmao</h2>
+  <!-- tables -->
+  <table bgcolor="black" width="300">
+    <tr bgcolor="goldenrod">
+      <th width="100">sunday</th>
+      <th width="100">monday</th>
+      <th width="100">tuesday</th>
+    </tr>
+    <tr bgcolor="lime" align="center">
+      <td>sleep</td>
+      <td>eat</td>
+      <td>study</td>
+    </tr>
+  </table>
+
+  <!-- colors -->
+
+  <p style="background-color: rgb(36, 217, 223); color: navy;">
+
+    <b>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus veniam nisi ducimus qui minus in, placeat
+      aliquam, modi quis molestiae vero dolore! Consequatur natus repudiandae libero, quasi est animi accusantium.</b>
+  </p>
+  <div style="background-color: darkseagreen;">
+    <p>
+      Lorem <span style="color: rgb(234, 6, 128);"> dolor sit amet consectetur </span>adipisicing elit. Placeat
+      inventore at,
+      modi distinctio iusto, tempore nulla, illum ducimus qui voluptatem fugit esse obcaecati beatae? Inventore ratione
+      sapiente eos optio asperiores.
+    </p>
+
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi corrupti provident harum mollitia quos, odio
+      delectus dolores iusto aperiam totam doloremque ut repellendus tempora, molestiae recusandae voluptatum ad
+      adipisci voluptas?
+    </p>
+  </div>
+
+  <a href="https://www.youtube.com" target="_blank">
+    <button style="background-color: rgb(20, 35, 248); color: #00ff00; border-radius: 5px;">go to youtube</button>
+  </a>
+  <br>
+
+  <button onclick="broadcast()">Click Me!</button>
+  
+  <p id="test1">whtas good</p>
+
+  <script>
+    function broadcast() {
+      document.getElementById("test1").innerHTML = "bye";
+    }
+  </script>
+
+
+  <br>
+
+  <!-- iframing -->
+
+
+
+
+
+    <br>
+    <br>
+    <br>
+
+    
+    <form>
+
+      <div>
+      <label for="fname">your first name: </label>
+      <input type="text" id="fname" placeholder="enter your first name here">
+      </div>
+
+      <br>
+
+      <div>
+      <label for="lname">your last name: </label>
+      <input type="text" id="lname" placeholder="enter your last name here">
+    </div>
+
+    <br>
+
+    <div>
+      <input type="reset">
+    </div>
+
+    <div>
+
+      <label>Male</label>
+      <input type="radio" name="gender" value = "Mr.">
+      <label>Female</label>
+      <input type="radio" name="gender" value = "Mrs.">
+    </div>
+
+
+    </form>
+</body>
+
+</html>
