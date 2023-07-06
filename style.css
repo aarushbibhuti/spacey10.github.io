@@ -48,6 +48,14 @@ li {
   margin-right: 20px;
 }
 
+h2 {
+  width: 100%;
+}
+
+p {
+  width: 100%;
+}
+
 a {
   text-decoration: none;
   color: rgb(210,210,210);
@@ -85,7 +93,7 @@ a {
   cursor: pointer;
   border: double 4px transparent;
   border-radius: 10p2;
-  background-image: linear-gradient(rgb(50, 50, 50), rgb(50, 50, 50)), radial-gradient(circle at top left, rgb(0, 255, 80),rgb(0, 200, 150));
+  background-image: linear-gradient(rgba(50, 50, 50, 1), rgba(50, 50, 50, 1)), radial-gradient(circle at top left, rgb(0, 255, 80),rgb(0, 200, 150));
   background-origin: border-box;
   background-clip: padding-box, border-box;
 }
@@ -113,4 +121,8 @@ a {
 
 .card .card-content {
   padding: 3px;
+  position: absolute;
+  transform: translate(0%, -100%);
+  background-color: rgba(50, 50, 50, 0.5);
+  background-size: cover;
 }
